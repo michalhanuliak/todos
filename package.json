@@ -3,7 +3,6 @@
     "version": "0.1.0",
     "private": true,
     "proxy": "http://localhost:8080",
-    "homepage": "https://github.com/michalhanuliak/todos",
     "dependencies": {
         "@testing-library/jest-dom": "^5.12.0",
         "@testing-library/react": "^11.2.6",
