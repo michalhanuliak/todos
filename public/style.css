@@ -1,0 +1,12 @@
+:root {
+    --primary-color: #2A3740;
+    --secondary-color: #41D9AE;
+    --hover-color: #43D9BD;
+    --marker: 'Permanent Marker', cursive;
+    --varela: 'Varela', sans-serif;
+}
+
+body {
+    font-family: var(--varela);
+    color: var(--primary-color);
+}

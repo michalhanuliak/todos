@@ -1,0 +1,30 @@
+.new-task {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    transition: .5s border;
+    border-bottom: 1px solid var(--primary-color);
+    &:focus-within {
+        border-bottom: 1px solid var(--hover-color);
+    }
+    &__input,
+    &__button {
+        outline: none;
+        border: unset;
+    }
+    &__input {
+        width: 100%;
+        padding: 0.5rem 0;
+        font-size: 1.4rem;
+    }
+    &__button {
+        transition: .2s color;
+        background: transparent;
+        font-size: 1rem;
+        color: var(--primary-color);
+        &:hover {
+            cursor: pointer;
+            color: var(--hover-color);
+        }
+    }
+}

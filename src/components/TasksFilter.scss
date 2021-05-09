@@ -1,0 +1,21 @@
+.filter {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 2rem;
+    &__input {
+        display: none;
+    }
+    &__input:checked+&__label {
+        color: var(--hover-color);
+    }
+    &__label {
+        transition: 0.2s all;
+        padding: 0 1rem;
+        font-weight: bold;
+        &:hover {
+            cursor: pointer;
+            color: var(--hover-color);
+        }
+    }
+}
